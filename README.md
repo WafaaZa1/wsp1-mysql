@@ -8,3 +8,8 @@
 sudo service mysql restart sudo service apache2 restart
 
 Om apache2 bråkar pga. port 80. Starta services / tjänster i Windows. Stoppa branchcache och starta om apache2
+
+
+
+
+ grant all privileges on *.* to 'wafaanti'@'localhost' identifed by 'password' ;

@@ -1,6 +1,6 @@
 # wsp1-mysql
  
- kör igån ubunto
+ kör igång ubunto
  kör
     sudo apt service mysql-restart
     sudo apt service apahce2 restart

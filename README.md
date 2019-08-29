@@ -13,3 +13,8 @@ Om apache2 bråkar pga. port 80. Starta services / tjänster i Windows. Stoppa b
 
 
  grant all privileges on *.* to 'wafaanti'@'localhost' identifed by 'password' ;
+
+Port 80 fungerade inte för mig, då bytade jag den till port 88.
+jag lyckas med att komma igång med PHP och sen kommenterade jag de sista raderna.
+
+

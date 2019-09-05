@@ -36,7 +36,9 @@ Kör
    Kör
 * mysql -u username -p
 
-
+# Databas
+Kommandon
+Skapa en databas
 
 
 # SQL-Fråga.

@@ -28,3 +28,4 @@ create TABLENAME    column
 use databcsename
 show databasname
 create index
+ * GRANT ALL PRIVILEGES ON *.* TO 'username'@'localhost' IDENTIFIED BY 'password';

@@ -11,14 +11,27 @@ Om apache2 bråkar pga. port 80. Starta services / tjänster i Windows. Stoppa b
 
 
 
+    Setup
+    Kör
+  * sudo mysql -u root 
+  
+  För att gör ny användare
+  * GRANT ALL PRIVILEGES ON *.* TO 'username'@'localhost' IDENTIFIED BY 'password';
+  
+  För att kolla vilka användare som finns
 
- grant all privileges on *.* to 'wafaanti'@'localhost' identifed by 'password' ;
+ * SELECT DISTINCT User FROM mysql.user;
+ 
+ Start
+ Kör
+
+* mysql -u username -p
 
 Port 80 fungerade inte för mig, då bytade jag den till port 88.
 jag lyckas med att komma igång med PHP och sen kommenterade jag de sista raderna.
 
 
-#SQL-Fråga.
+# SQL-Fråga.
 alter table add/drop
 select * from tablename
 insert
@@ -28,4 +41,5 @@ create TABLENAME    column
 use databcsename
 show databasname
 create index
- * GRANT ALL PRIVILEGES ON *.* TO 'username'@'localhost' IDENTIFIED BY 'password';
+
+

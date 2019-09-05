@@ -18,3 +18,13 @@ Port 80 fungerade inte för mig, då bytade jag den till port 88.
 jag lyckas med att komma igång med PHP och sen kommenterade jag de sista raderna.
 
 
+#SQL Fråga/ Query.
+alter table add/drop
+select * from tablename
+insert
+describe TABLENAME;
+update
+create TABLENAME    column
+use databcsename
+show databasname
+create index

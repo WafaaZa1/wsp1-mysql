@@ -24,7 +24,7 @@ Om apache2 bråkar pga. port 80. Starta services / tjänster i Windows. Stoppa b
 
     Setup
     Kör
-  * sudo mysql -u root 
+    * sudo mysql -u root
   
     För att gör ny användare
   * GRANT ALL PRIVILEGES ON *.* TO 'username'@'localhost' IDENTIFIED BY 'password';
